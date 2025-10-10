@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+    html {
+    scroll-behavior: smooth;
+    }
+    img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile Picture"/>
+            <p>Hello! my name is Aditya Arya. As a driven B.Tech student in Computer Science at K.R. Mangalam University, I'm passionate about harnessing the power of technology to drive innovation and solve real-world problems. I'm a web developer passionate about building clean and responsive websites. I love learning new technologies and turning ideas into reality.</p>
+        </section>
+
+        <hr>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><strong>To Do App</strong> - A responsive to do  web app built with HTML and JavaScript.</li>
+                <li><strong>Spotify Clone</strong> - A responsive Spotify web app built with HTML, CSS, and JavaScript.</li>
+                <li><strong>Simon Game</strong> - A responsive classic memory game challenge web app built with HTML, CSS, and JavaScript.</li>
+                <li><strong>Daily calorie Tracker</strong> - A web app that helps user to track their daily food calorie intake.</li>
+                <li><strong>Portfolio Website</strong> - The very site you're browsing!</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <table border="1" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" placeholder="Your Name" required /><br /><br />
+
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" placeholder="Your Email" required /><br /><br />
+
+                <label for="message">Message:</label><br />
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea><br /><br />
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Back to top button -->
+    <a href="#top" class="back-to-top">Back to Top</a>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+</body>
+</html>
